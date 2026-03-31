@@ -37,7 +37,7 @@ const Hero = () => {
                 Explore Products
               </button>
               
-              <button className="btn btn-outline border-[#7C3AED] text-[#7C3AED] hover:bg-[#7C3AED] hover:border-[#7C3AED] normal-case px-8 h-14 rounded-full font-bold text-lg gap-2 group">
+              <button className="btn btn-outline border-[#7C3AED] text-[#7C3AED] hover:bg-[#7C3AED] hover:border-[#7C3AED] hover:text-white normal-case px-8 h-14 rounded-full font-bold text-lg gap-2 group">
                 <div className="bg-white group-hover:bg-purple-600 p-1 rounded-full transition-colors">
                   <Play className="w-4 h-4 fill-[#7C3AED] group-hover:fill-white" />
                 </div>
