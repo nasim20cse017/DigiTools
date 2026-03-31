@@ -1,7 +1,7 @@
 import { ShoppingCart } from 'lucide-react';
 import React from 'react';
 
-const Navbar = () => {
+const Navbar = ({ cartCount, onCartClick }) => {
   const navLinks = [
     { name: 'Products', href: '#' },
     { name: 'Features', href: '#' },
@@ -57,6 +57,12 @@ const Navbar = () => {
               <ShoppingCart className="h-5 w-5 text-gray-700" />
               {/* Badge hidden if empty, but here for future use */}
               {/* <span className="badge badge-xs badge-primary indicator-item"></span> */}
+
+              {cartCount > 0 && (
+                <span className="badge badge-sm indicator-item bg-[#7C3AED] text-white border-none">
+                  {cartCount}
+                </span>
+              )}
             </div>
           </button>
 
