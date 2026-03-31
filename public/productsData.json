@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Design Pro Toolkit",
+    "description": "A complete toolkit for UI/UX designers with templates and assets.",
+    "price": 1200,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "500+ UI templates",
+      "Figma & Adobe XD support",
+      "Commercial license",
+      "Free lifetime updates"
+    ],
+    "icon": "https://i.ibb.co.com/hxNkpLdX/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Business Operations Suite",
+    "description": "Manage your business operations with powerful automation tools.",
+    "price": 800,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Task automation",
+      "Team collaboration",
+      "Analytics dashboard",
+      "Cloud sync"
+    ],
+    "icon": "https://i.ibb.co.com/DH5JTQ7J/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Portfolio Builder",
+    "description": "Create stunning portfolios to showcase your work professionally.",
+    "price": 500,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Drag & drop builder",
+      "Custom domains",
+      "Responsive design",
+      "SEO optimization"
+    ],
+    "icon": "https://i.ibb.co.com/9mnZtwwh/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "E-Commerce Starter Kit",
+    "description": "Launch your online store with ready-to-use eCommerce tools.",
+    "price": 1500,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Product management",
+      "Payment integration",
+      "Order tracking",
+      "Mobile-friendly UI"
+    ],
+    "icon": "https://i.ibb.co.com/p60MvdhX/shopping-cart.png"
+  },
+  {
+    "id": 5,
+    "name": "Social Media Booster",
+    "description": "Grow your social presence with smart scheduling and analytics.",
+    "price": 600,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Post scheduler",
+      "Multi-platform support",
+      "Engagement analytics",
+      "Content suggestions"
+    ],
+    "icon": "https://i.ibb.co.com/V0WPSvQm/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Content Writing AI",
+    "description": "Generate high-quality content for blogs, ads, and social media.",
+    "price": 900,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "AI content generation",
+      "Grammar correction",
+      "SEO optimization",
+      "Multiple language support"
+    ],
+    "icon": "https://i.ibb.co.com/bj1PsM0D/writing-2327400-1.png"
+  }
+]

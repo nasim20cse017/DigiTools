@@ -4,15 +4,22 @@ import {  ToastContainer } from 'react-toastify'
 import Navbar from './components/NavBar/NavBar'
 import Banner from './components/Banner/Banner'
 import StatsSection from './components/Stats/Stats'
+import { useState } from 'react'
+import ShopSection from './components/Shop/ShopSection'
 
 function App() {
+  const [cart, setCart] = useState([]);
+  const [activeTab, setActiveTab] = useState('products');
 
   return (
     <>
-    <Navbar></Navbar>
+    <Navbar cartCount={cart.length} onCartClick={() => setActiveTab('cart')}></Navbar>
     <Banner></Banner>
     <StatsSection></StatsSection>
-    
+      <ShopSection cart={cart} 
+        setCart={setCart} 
+        activeTab={activeTab} 
+        setActiveTab={setActiveTab}></ShopSection>    
 
 
 
