@@ -6,6 +6,7 @@ import Banner from './components/Banner/Banner'
 import StatsSection from './components/Stats/Stats'
 import { useState } from 'react'
 import ShopSection from './components/Shop/ShopSection'
+import GetStarted from './components/GetStarted/GetStarted'
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -19,7 +20,8 @@ function App() {
       <ShopSection cart={cart} 
         setCart={setCart} 
         activeTab={activeTab} 
-        setActiveTab={setActiveTab}></ShopSection>    
+        setActiveTab={setActiveTab}></ShopSection>
+        <GetStarted></GetStarted>  
 
 
 
