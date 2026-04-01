@@ -9,7 +9,7 @@ const Cart = ({ cartItems, onRemove, onCheckout, setView }) => {
       
       {cartItems.length === 0 ? (
         <div className="py-10 text-gray-400">
-          Your cart is empty. <span className="text-[#7C3AED] cursor-pointer underline" onClick={() => setView('products')}>Go Shop</span>
+          Your cart is empty.
         </div>
       ) : (
         <>

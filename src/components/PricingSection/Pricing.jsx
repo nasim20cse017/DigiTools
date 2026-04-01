@@ -25,7 +25,7 @@ const Pricing = () => {
           Choose the plan that fits your needs. Upgrade or downgrade anytime.
         </p>
 
-        {/* Pricing Grid */}
+        {/* Pricing Card */}
         <div className="flex flex-col md:flex-row gap-8 items-center items-stretch">
           {pricingPlans.map((plan) => {
             const isPro = plan.planName === "Pro";
@@ -70,7 +70,7 @@ const Pricing = () => {
                   ))}
                 </div>
 
-                {/* CTA Button */}
+                {/*  Button */}
                 <button
                   className={`btn w-full rounded-2xl h-14 font-bold border-none normal-case text-lg transition-transform active:scale-95 ${
                     isPro

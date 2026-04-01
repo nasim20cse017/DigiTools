@@ -33,7 +33,7 @@ const Navbar = ({ cartCount }) => {
           </a>
         </div>
 
-        {/* Center Navigation (Desktop) */}
+        {/* Center Navigation */}
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-4">
             {navLinks.map((link) => (

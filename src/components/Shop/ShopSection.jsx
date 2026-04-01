@@ -13,7 +13,7 @@ const ShopSection = ({ cart, setCart, activeTab, setActiveTab }) => {
     setProducts(data);
   };
 
-  // Trigger load
+  // Loading Data
   loadData();
 
   const addToCart = (product) => {
@@ -38,7 +38,7 @@ const ShopSection = ({ cart, setCart, activeTab, setActiveTab }) => {
   return (
     <section className="max-w-7xl mx-auto px-4 py-20 text-center">
       <h2 className="text-4xl font-extrabold text-[#1F2937] mb-4">Premium Digital Tools</h2>
-      <p className="text-gray-500 mb-10 max-w-2xl mx-auto">Choose from our curated collection of premium products.</p>
+      <p className="text-gray-500 mb-10 max-w-2xl mx-auto">Choose from our curated collection of premium digital products  designed <br></br> to boost your productivity and creativity.</p>
 
       {/* Toggle Buttons */}
       <div className="inline-flex bg-gray-50 p-1 rounded-full border mb-16">

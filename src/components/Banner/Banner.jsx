@@ -1,6 +1,7 @@
 import React from 'react';
 import { Play } from 'lucide-react';
 import BannerImg from '../../assets/banner.png'
+import { FiArrowRight } from 'react-icons/fi';
 
 const Hero = () => {
   return (
@@ -20,21 +21,20 @@ const Hero = () => {
             </div>
 
             {/* Main Heading */}
-            <h1 className="text-5xl lg:text-6xl font-extrabold text-[#1F2937] leading-[1.1] tracking-tight">
-              Supercharge Your <br />
-              <span className="text-[#1F2937]">Digital Workflow</span>
+            <h1 className="text-5xl lg:text-6xl font-extrabold text-[#1F2937]">
+              <span className='mb-4 inline-block'>Supercharge Your</span> <br />
+              <span>Digital Workflow</span>
             </h1>
 
             {/* Description */}
-            <p className="text-lg text-gray-500 max-w-lg leading-relaxed">
-              Access premium AI tools, design assets, templates, and productivity 
-              software—all in one place. Start creating faster today.
+            <p className="text-lg text-gray-500 max-w-lg">
+              Access premium AI tools, design assets, templates, and productivity software—all in one place. Start creating faster today. <br></br> Explore Products
+
             </p>
 
-            {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 items-center">
               <button className="btn border-none normal-case px-8 h-14 bg-gradient-to-r from-[#7C3AED] to-[#9F67FF] text-white hover:opacity-90 rounded-full font-bold text-lg shadow-lg shadow-purple-200">
-                Explore Products
+                Explore Products <FiArrowRight></FiArrowRight>
               </button>
               
               <button className="btn btn-outline border-[#7C3AED] text-[#7C3AED] hover:bg-[#7C3AED] hover:border-[#7C3AED] hover:text-white normal-case px-8 h-14 rounded-full font-bold text-lg gap-2 group">
@@ -49,12 +49,11 @@ const Hero = () => {
           {/* Right Image Column */}
           <div className="mt-12 lg:mt-0 relative flex justify-center lg:justify-end">
             <div className="relative w-full max-w-lg">
-              {/* Decorative background blur (optional, for depth) */}
               <div className="absolute top-0 -left-4 w-72 h-72 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
               
               {/* Main Banner Image */}
               <img
-                src={BannerImg} // Ensure this matches your public folder path
+                src={BannerImg} 
                 alt="Digital Workflow Visualization"
                 className="relative rounded-3xl shadow-2xl w-full object-cover aspect-square lg:aspect-auto"
               />

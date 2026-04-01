@@ -9,8 +9,8 @@ const Workflow = () => {
           Ready To Transform Your Workflow?
         </h2>
 
-        <p className="text-lg md:text-xl text-purple-100 mb-10 max-w-2xl mx-auto opacity-90 leading-relaxed">
-          Join thousands of professionals who are already using Digitools to work smarter. 
+        <p className="text-lg md:text-xl text-purple-100 mb-10 max-w-3xl mx-auto opacity-90">
+          Join thousands of professionals who are already using Digitools to work smarter. <br></br> 
           Start your free trial today.
         </p>
 
