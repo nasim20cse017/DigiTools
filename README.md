@@ -1,16 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 DigiTools - Premium Digital MarketplaceDigiTools is a high-performance, modern e-commerce landing page and product management system designed for creators, professionals, and businesses. It provides a seamless experience for browsing premium digital assets, managing a shopping cart, and exploring transparent pricing plans.🛠️ Built WithThis project is built using a modern frontend stack focused on performance, scalability, and beautiful UI/UX:React.js: For building a component-based, high-performance user interface.Tailwind CSS: For utility-first styling and rapid responsive design.DaisyUI: For accessible, themeable, and pre-designed UI components.Lucide React & React Icons: For crisp, scalable vector iconography.React-Toastify: For beautiful, non-blocking user notifications.Google Fonts (Manrope): For clean, professional typography across the entire platform.✨ Key FeaturesFeatureDescription⚡ Dynamic Product GalleryA fully responsive, 3-column grid that loads premium digital tools from a JSON data source using asynchronous fetching. Features include category tags (Best Seller, New, Popular) and detailed product specs.🛒 Advanced Cart SystemA centralized state-managed shopping cart that allows users to add items, view real-time counts in the navbar, and manage selections in a dedicated checkout view with automated total calculations.📊 Interactive Pricing & WorkflowA multi-tier pricing section with a highlighted "Pro" plan and a 3-step "Get Started" guide to simplify the user onboarding journey.
