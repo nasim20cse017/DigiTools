@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Check } from 'lucide-react';
 
 const ProductCard = ({ product, onAdd }) => {
+  const [added, setAdded] = useState(false);
+
+  const handleAdd = () => {
+    onAdd(product);
+    setAdded(true);
+  };
+
   const tagColors = {
     "best-seller": "bg-orange-100 text-orange-600",
     "popular": "bg-blue-100 text-blue-600",
@@ -31,8 +38,11 @@ const ProductCard = ({ product, onAdd }) => {
         ))}
       </div>
 
-      <button onClick={() => onAdd(product)} className="btn w-full bg-[#7C3AED] hover:bg-[#632ecb] border-none text-white rounded-2xl h-14 font-bold">
-        Buy Now
+      <button onClick={handleAdd} disabled={added} className={`btn w-full border-none text-white rounded-2xl h-14 font-bold ${added
+          ? "bg-green-500 cursor-not-allowed"
+          : "bg-[#7C3AED] hover:bg-[#632ecb]"
+      }`}
+    >{added ? "Added to Cart" : "Buy Now"}
       </button>
     </div>
   );
