@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Design Pro Toolkit",
     "description": "A complete toolkit for UI/UX designers with templates and assets.",
-    "price": 1200,
+    "price": 120,
     "period": "one-time",
     "tag": "Best Seller",
     "tagType": "best-seller",
@@ -19,7 +19,7 @@
     "id": 2,
     "name": "Business Operations Suite",
     "description": "Manage your business operations with powerful automation tools.",
-    "price": 800,
+    "price": 80,
     "period": "monthly",
     "tag": "Popular",
     "tagType": "popular",
@@ -35,7 +35,7 @@
     "id": 3,
     "name": "Portfolio Builder",
     "description": "Create stunning portfolios to showcase your work professionally.",
-    "price": 500,
+    "price": 50,
     "period": "yearly",
     "tag": "New",
     "tagType": "new",
@@ -51,7 +51,7 @@
     "id": 4,
     "name": "E-Commerce Starter Kit",
     "description": "Launch your online store with ready-to-use eCommerce tools.",
-    "price": 1500,
+    "price": 150,
     "period": "one-time",
     "tag": "Best Seller",
     "tagType": "best-seller",
@@ -67,7 +67,7 @@
     "id": 5,
     "name": "Social Media Booster",
     "description": "Grow your social presence with smart scheduling and analytics.",
-    "price": 600,
+    "price": 60,
     "period": "monthly",
     "tag": "Popular",
     "tagType": "popular",
@@ -83,7 +83,7 @@
     "id": 6,
     "name": "Content Writing AI",
     "description": "Generate high-quality content for blogs, ads, and social media.",
-    "price": 900,
+    "price": 90,
     "period": "yearly",
     "tag": "New",
     "tagType": "new",
@@ -94,5 +94,53 @@
       "Multiple language support"
     ],
     "icon": "https://i.ibb.co.com/bj1PsM0D/writing-2327400-1.png"
-  }
+  },
+  {
+  "id": 7,
+  "name": "SEO Optimization Toolkit",
+  "description": "Boost your website ranking with advanced SEO tools and insights.",
+  "price": 70,
+  "period": "monthly",
+  "tag": "Popular",
+  "tagType": "popular",
+  "features": [
+    "Keyword research",
+    "On-page SEO analysis",
+    "Backlink tracking",
+    "Competitor insights"
+  ],
+  "icon": "https://cdn-icons-png.flaticon.com/512/2881/2881142.png"
+},
+{
+  "id": 8,
+  "name": "Video Editing Master Pack",
+  "description": "Professional video editing tools, presets, and transitions.",
+  "price": 130,
+  "period": "one-time",
+  "tag": "Best Seller",
+  "tagType": "best-seller",
+  "features": [
+    "Premiere Pro presets",
+    "After Effects templates",
+    "4K transitions",
+    "Royalty-free assets"
+  ],
+  "icon": "https://cdn-icons-png.flaticon.com/512/2920/2920244.png"
+},
+{
+  "id": 9,
+  "name": "Developer Utility Bundle",
+  "description": "Essential tools and resources for modern web developers.",
+  "price": 100,
+  "period": "yearly",
+  "tag": "New",
+  "tagType": "new",
+  "features": [
+    "Code snippets library",
+    "API testing tools",
+    "Debugging utilities",
+    "CLI productivity tools"
+  ],
+  "icon": "https://cdn-icons-png.flaticon.com/512/2721/2721295.png"
+}
 ]
