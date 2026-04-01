@@ -8,6 +8,7 @@ import { useState } from 'react'
 import ShopSection from './components/Shop/ShopSection'
 import GetStarted from './components/GetStarted/GetStarted'
 import Pricing from './components/PricingSection/Pricing'
+import Workflow from './components/Workflow/Workflow'
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -24,6 +25,7 @@ function App() {
         setActiveTab={setActiveTab}></ShopSection>
         <GetStarted></GetStarted> 
         <Pricing></Pricing> 
+        <Workflow></Workflow>
 
 
 

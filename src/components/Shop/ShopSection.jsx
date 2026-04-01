@@ -21,7 +21,7 @@ const ShopSection = ({ cart, setCart, activeTab, setActiveTab }) => {
       return toast.info("Already in cart");
     }
     setCart([...cart, product]);
-    toast.success("Added to cart!");
+    toast.success("Added to cart!",);
   };
 
   const removeFromCart = (id) => {
