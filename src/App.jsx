@@ -7,6 +7,7 @@ import StatsSection from './components/Stats/Stats'
 import { useState } from 'react'
 import ShopSection from './components/Shop/ShopSection'
 import GetStarted from './components/GetStarted/GetStarted'
+import Pricing from './components/PricingSection/Pricing'
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -21,7 +22,8 @@ function App() {
         setCart={setCart} 
         activeTab={activeTab} 
         setActiveTab={setActiveTab}></ShopSection>
-        <GetStarted></GetStarted>  
+        <GetStarted></GetStarted> 
+        <Pricing></Pricing> 
 
 
 

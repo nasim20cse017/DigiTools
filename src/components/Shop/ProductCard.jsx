@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle2 } from 'lucide-react';
+import { Check } from 'lucide-react';
 
 const ProductCard = ({ product, onAdd }) => {
   const tagColors = {
@@ -25,7 +25,7 @@ const ProductCard = ({ product, onAdd }) => {
       <div className="space-y-3 mb-10 flex-grow">
         {product.features.map((f, i) => (
           <div key={i} className="flex items-center gap-3 text-gray-600 text-sm">
-            <CheckCircle2 className="w-5 h-5 text-green-500" />
+            <Check className="w-5 h-5 text-green-500" />
             {f}
           </div>
         ))}
