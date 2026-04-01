@@ -9,6 +9,7 @@ import ShopSection from './components/Shop/ShopSection'
 import GetStarted from './components/GetStarted/GetStarted'
 import Pricing from './components/PricingSection/Pricing'
 import Workflow from './components/Workflow/Workflow'
+import Footer from './components/Footer/Footer'
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -26,6 +27,7 @@ function App() {
         <GetStarted></GetStarted> 
         <Pricing></Pricing> 
         <Workflow></Workflow>
+        <Footer></Footer>
 
 
 
