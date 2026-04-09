@@ -130,6 +130,7 @@ npm run preview
 
 * **GitHub Repository:** [DigiTools](https://github.com/nasim20cse017/DigiTools.git)
 * **Live Site:** [DigiTools Live](https://nasim-sarkar-digitools.netlify.app/)
+* **Project Screenshot:** ![DigiTools Screenshot](https://i.ibb.co.com/LD5CjMR9/Screenshot-2026-04-10-at-12-03-29-AM.png)
 
 ---
 
