@@ -1,6 +1,6 @@
 # 🚀 DigiTools - Premium Digital Tools
 
-* **** ![DigiTools Screenshot](https://i.ibb.co.com/LD5CjMR9/Screenshot-2026-04-10-at-12-03-29-AM.png)
+![DigiTools Screenshot](https://i.ibb.co.com/LD5CjMR9/Screenshot-2026-04-10-at-12-03-29-AM.png)
 
 
 **DigiTools** is a high-performance, modern e-commerce landing page and product management system designed for creators, professionals, and businesses.
